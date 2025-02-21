@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="670" name="Main page" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[<pre>
+Functionality related to the main page</pre>
+]]></details> 
+
+<testcase internalid="671" name="Changing the number of displayed products">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<fullexternalid><![CDATA[TW-1]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the functionality of changing the number of displayed products</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The <a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a> website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the buttons to show a certain number of results at the top left</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The number of displayed products changes according to the user&#39;s selection</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="673" name="Changing the way products are sorted">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<fullexternalid><![CDATA[TW-2]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the functionality of changing the method of sorting products</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click the buttons to change the product sorting mode</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Products are sorted according to user settings</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="675" name="Adding a product to the cart">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<fullexternalid><![CDATA[TW-3]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Verification of the functionality of adding a product to the cart</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click &quot;Add to cart&quot; under any product</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="668" name="Product page" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<pre>
+Functionalities related to the product page</pre>
+]]></details> 
+
+<testcase internalid="689" name="Currency change">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<fullexternalid><![CDATA[TW-10]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of correct currency change</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Open a product</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The selected product page opens correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Change the currency in the right side menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changing the currency updates the product price in the selected currency</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="691" name="Adding a product to the cart">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<fullexternalid><![CDATA[TW-11]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Verification of the functionality of adding a product to the cart</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Open a product</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>The selected product page opens correctly</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click &quot;Add to cart&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We are redirected to the cart page containing the product we have added</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="693" name="Social media links">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<fullexternalid><![CDATA[TW-12]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the correct operation of links to social media</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Open a product</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The selected product page opens correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click any social media button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We are redirected to the selected page</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="695" name="Post a comment">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<fullexternalid><![CDATA[TW-13]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the functionality of posting a comment</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Open a product</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The selected product page opens correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Fill out the comment form</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The form fields are completed according to what we write</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click &quot;Post Comment&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Our comment has been published</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite><testsuite id="669" name="Cart page" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<pre>
+Functionality related to the shopping cart page</pre>
+]]></details> 
+
+<testcase internalid="677" name="Updating the quantity of the selected product in the cart">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<fullexternalid><![CDATA[TW-4]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the functionality of updating the quantity of the selected product in the shopping cart</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Change the quantity of the selected product and click &quot;Update&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The number of products in the cart changes regardless of the variable quantity</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="679" name="Removing a product from the cart">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<fullexternalid><![CDATA[TW-5]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the functionality of removing a product from the cart</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click &quot;X&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The product disappears from the cart regardless of the quantity</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="681" name="Correctness of the final price">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<fullexternalid><![CDATA[TW-6]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of the correctness of the final price</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>We check the &quot;Grand Total&quot; field</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &quot;Grand Total&quot; field gives the correct price including the price of all products and shipping</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="683" name="Applying a coupon">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<fullexternalid><![CDATA[TW-7]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of correct use of the coupon</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Enter wrong Coupon Code and click &quot;Apply Coupon&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the message &quot;Not a valid coupon code&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="685" name="Applying a gift card">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<fullexternalid><![CDATA[TW-8]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<p>Verification of correct use of the gift card</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Enter wrong&nbsp;Gift Card number and click &quot;Redeem Gift Card&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the message &quot;Not a valid gift card number&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="687" name="Currency change">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<fullexternalid><![CDATA[TW-9]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<pre>
+At least one product has been added to the cart</pre>
+]]></summary>
+	<preconditions><![CDATA[<pre>
+Verification of correct currency change</pre>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>7</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The&nbsp;<a href="https://academybugs.com/" rel="noopener noreferrer" target="_blank"><strong>https://academybugs.com</strong></a>&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click the Find Bugs link on the navigation bar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The https://academybugs.com/find-bugs/&nbsp;website opened correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add one or more products to the cart</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>We receive the information &quot;Successfully Added to your Shopping Cart&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click the &quot;View cart&quot; link on top of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The page with the contents of the cart is displayed correctly</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Change the currency in the right side menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changing the currency updates the products price and shipping&nbsp;price in the selected currency</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite></testsuite>
