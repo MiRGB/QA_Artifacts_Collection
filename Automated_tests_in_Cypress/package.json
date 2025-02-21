@@ -1,0 +1,19 @@
+{
+  "name": "automated_tests_in_cypress",
+  "version": "1.0.0",
+  "description": "test automation in cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tests",
+    "automation",
+    "cypress"
+  ],
+  "author": "MiRGB",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
