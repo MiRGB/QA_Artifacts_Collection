@@ -1,0 +1,7 @@
+{
+    "signInFailed": "Authentication failed",
+    "productAdded": "Product successfully added",
+    "emptyCart": "shopping cart is empty",
+    "newsletterRegistered": "already registered",
+    "messageSent": "has been successfully sent"
+}
