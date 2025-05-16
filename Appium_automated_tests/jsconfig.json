@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "types": [
+      "@wdio/globals/types",
+      "expect-webdriverio"
+    ]
+  },
+  "include": ["./test/**/*.js", "./wdio.conf.js"]
+}
