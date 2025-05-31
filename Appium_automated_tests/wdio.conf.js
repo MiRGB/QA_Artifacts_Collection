@@ -30,7 +30,7 @@ export const config = {
     //
     specs: [
         // ToDo: define location for spec files here
-        './test/specs/**/*.js'
+        './test/specs/android/*screen.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -52,7 +52,7 @@ export const config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -61,11 +61,11 @@ export const config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        //browserName: 'Chrome',
         'appium:deviceName': 'Pixel 8 WEBDRIVER',
         'appium:platformVersion': '15.0',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': path.join(__dirname, 'app/android/ApiDemos-debug.apk')
+        'appium:app': path.join(__dirname, 'app/android/ColorNote+Notepad.apk'),
+        'appium:autoGrantPermissions': true
     }],
 
     //

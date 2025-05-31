@@ -1,5 +1,6 @@
 {
   "name": "wdio-appium",
+  "type": "module",
   "devDependencies": {
     "@wdio/appium-service": "^9.12.7",
     "@wdio/cli": "^9.12.7",
@@ -8,7 +9,8 @@
     "@wdio/mocha-framework": "^9.12.6",
     "@wdio/spec-reporter": "^9.12.6",
     "appium-uiautomator2-driver": "^4.2.3",
-    "expect-webdriverio": "^5.1.0"
+    "eslint": "^7.32.0",
+    "eslint-plugin-wdio": "^7.4.2"
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
