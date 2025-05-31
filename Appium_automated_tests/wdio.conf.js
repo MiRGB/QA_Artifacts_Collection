@@ -64,7 +64,7 @@ export const config = {
         'appium:deviceName': 'Pixel 8 WEBDRIVER',
         'appium:platformVersion': '15.0',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': path.join(__dirname, 'app/android/ColorNote+Notepad.apk'),
+        'appium:app': path.join(__dirname, 'app/android/SampleNotepad.apk'),
         'appium:autoGrantPermissions': true
     }],
 
