@@ -1,4 +1,4 @@
-# 📂 QA Test Portfolio
+# 📂 QA Testing Artifacts Collection
 
 This repository contains a set of sample testing materials that showcase my experience in software testing. It includes artifacts from various stages of the QA process, generated using popular testing tools.
 
