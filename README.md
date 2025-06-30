@@ -63,7 +63,7 @@ Exported files from TestLink documenting test plans and test cases:
 - **Jira** – bug tracking and management  
 - **Trello** – task and bug tracking organization
 
-## 📄 Copyright and Usage Notice
+## 📜 Copyright and Usage Notice
 
 Copyright © MiRGB, 2025.  
 All rights reserved.
